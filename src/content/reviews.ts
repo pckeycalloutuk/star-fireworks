@@ -1,0 +1,88 @@
+import type { Review } from "@/components/ui/ReviewCard";
+
+export const reviews: Review[] = [
+  {
+    name: "Hannah & James Whitfield",
+    location: "Ripley Castle, Yorkshire",
+    event: "Wedding",
+    rating: 5,
+    text: "Utterly magical. They fired the display to our first dance and every guest was speechless. From the first phone call to the final shell, the whole team was calm, professional and completely on budget.",
+  },
+  {
+    name: "Craig Donnelly",
+    location: "Harrogate Borough Council",
+    event: "Public Display",
+    rating: 5,
+    text: "We've trusted them with our town Bonfire Night for six years running. Their risk assessments and paperwork are faultless, the crowd management advice is invaluable and the show gets better every year.",
+  },
+  {
+    name: "Priya Nair",
+    location: "Leeds",
+    event: "Corporate Launch",
+    rating: 5,
+    text: "They handled the pyrotechnics for our flagship product launch broadcast. Close-proximity effects timed perfectly to the reveal — the client was thrilled and it looked incredible on camera.",
+  },
+  {
+    name: "The Ashworth Family",
+    location: "Windermere, Cumbria",
+    event: "Anniversary",
+    rating: 5,
+    text: "Booked a low-noise display for my parents' golden anniversary as the venue backed onto farmland. Beautiful, considerate and stress-free. You can tell these people genuinely love what they do.",
+  },
+  {
+    name: "Marcus Bell",
+    location: "Manchester",
+    event: "Festival",
+    rating: 5,
+    text: "A combined drone and firework finale that had 8,000 people filming on their phones. Ticket feedback was off the charts. Already re-booked for next summer.",
+  },
+  {
+    name: "Sophie Trent",
+    location: "York",
+    event: "Wedding",
+    rating: 5,
+    text: "The sparkler send-off and a short pyromusical after the speeches — worth every penny. Communication was brilliant throughout and they worked seamlessly with our venue coordinator.",
+  },
+  {
+    name: "Daniel Okoro",
+    location: "Newcastle",
+    event: "Charity Ball",
+    rating: 5,
+    text: "Indoor stage pyro and CO2 jets for our fundraising gala. Fully certified, discreet setup and a genuine wow-moment that got everyone reaching for their wallets. Superb.",
+  },
+  {
+    name: "Emma Fairhurst",
+    location: "Chester",
+    event: "Wedding",
+    rating: 5,
+    text: "Weather looked awful all week and they kept us calm, monitored it constantly and made the right call on the night. The display went ahead and it was breathtaking. True professionals.",
+  },
+  {
+    name: "Rob & Kelly Simmons",
+    location: "Bolton",
+    event: "Birthday",
+    rating: 5,
+    text: "Surprise 40th display in a back paddock. They sorted the licensing, the safety distances, everything. My husband had no idea — the look on his face was priceless.",
+  },
+  {
+    name: "Councillor Amara Diallo",
+    location: "Sheffield",
+    event: "National Event",
+    rating: 5,
+    text: "Fired from a barge on the river for a city-centre celebration. The logistics were complex and they delivered flawlessly, with full insurance and liaison with the emergency services.",
+  },
+  {
+    name: "Tom Hargreaves",
+    location: "Preston",
+    event: "Corporate",
+    rating: 5,
+    text: "Reliable, insured and brilliant to deal with. We use them for every dealership opening. The 3D preview they send beforehand makes signing off the design so easy.",
+  },
+  {
+    name: "Lucy & Aiden Palmer",
+    location: "Alnwick, Northumberland",
+    event: "Wedding",
+    rating: 5,
+    text: "The Showstopper package was jaw-dropping. Guests are still talking about it months later. If you're on the fence — book them. Best decision of the whole wedding.",
+  },
+];
